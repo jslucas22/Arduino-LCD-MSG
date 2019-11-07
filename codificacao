@@ -29,7 +29,6 @@ lcd.home (); // go home
 
 void loop()
 {
- // Backlight on/off every 3 seconds
  lcd.setCursor (0,1);     
  lcd.print(n++,DEC);
 
